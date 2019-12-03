@@ -1,0 +1,115 @@
+/***********  Basics  *************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: .1px;
+    line-height: 1.7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***********  Header  ************/
+
+.header {
+    width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*************  Nav Bar  **************/
+
+.nav-bar {
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width:140%;
+}
+
+
+.menu-link {
+    color:black;
+    font-size: 1.5rem;
+}
+
+.menu-link:hover {
+    color: rgb(88, 88, 88);
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 5px 40px;
+    font-size: 2rem;
+    color: black;
+    border:2px solid black;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color:white;
+    background: rgb(36, 36, 36);
+}
+
+/**********  Main  ************/
+
+
+/***********  Section 1  ********/
+
+.section-1 {
+    background:url(img/home_hero.png) center/cover no-repeat;
+    background-size: 100% 100vh;
+    padding-bottom: 100vh;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 70px 0;
+}
+
+/***********  Section 2  **********/
+
+.section-2 {
+
+}
+
+.paragraph {
+
+}
+
+
+.price-block {
+
+}
+
+.price {
+    
+}
+
+
+
+
+/***********  Section 3  *********/
+
+/************  Footer  **********/
